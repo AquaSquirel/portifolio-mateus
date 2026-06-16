@@ -26,7 +26,7 @@ export const Hero = () => {
                     <p className="text-base md:text-lg text-gray-400 font-medium tracking-wider uppercase opacity-80">
                         Do <span className="text-secondary">Elétron</span> ao <span className="text-primary">Bit</span>
                     </p>
-                    <p className="text-2xl md:text-4xl font-bold text-white tracking-tight">
+                    <p className="text-xl md:text-3xl font-bold text-white tracking-tight">
                         Desenvolvedor & Técnico de TI
                     </p>
                     <p className="text-lg md:text-xl text-gray-500 font-medium">
