@@ -22,13 +22,17 @@ export const Hero = () => {
                     Mateus Sonnenberg
                     <span className="text-primary">.</span>
                 </h1>
-                <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-8 leading-relaxed">
-                    Do <span className="text-secondary font-semibold">Elétron</span> ao <span className="text-primary font-semibold">Bit</span>.
-                    <br />
-                    Desenvolvedor & Técnico de TI
-                    <br />
-                    Engenheiro de Computação em Formação.
-                </p>
+                <div className="max-w-2xl mx-auto mb-10 space-y-3">
+                    <p className="text-base md:text-lg text-gray-400 font-medium tracking-wider uppercase opacity-80">
+                        Do <span className="text-secondary">Elétron</span> ao <span className="text-primary">Bit</span>
+                    </p>
+                    <p className="text-2xl md:text-4xl font-bold text-white tracking-tight">
+                        Desenvolvedor & Técnico de TI
+                    </p>
+                    <p className="text-lg md:text-xl text-gray-500 font-medium">
+                        Engenheiro de Computação em Formação
+                    </p>
+                </div>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <a href="#projects" className="px-8 py-3 rounded-full bg-primary text-white font-medium hover:bg-primary/90 transition-all shadow-[0_0_20px_-5px_var(--primary)]">
