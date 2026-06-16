@@ -37,17 +37,25 @@ export const About = () => {
                                         Com formação técnica em <strong>Eletroeletrônica</strong> e <strong>Desenvolvimento de Sistemas</strong>, aprendi a transitar entre o circuito físico e a lógica do código para resolver problemas reais de gestão e produtividade.
                                     </p>
                                     <p>
-                                        Atualmente cursando <strong>Engenharia de Computação</strong> na Facens, busco minha primeira oportunidade de <strong>estágio</strong> para aplicar essa visão multidisciplinar e evoluir em projetos que exijam tanto rigor técnico quanto criatividade.
+                                        Atualmente atuando como <strong>Técnico de TI na GVNDT</strong> e cursando <strong>Engenharia de Computação</strong> na Facens, aplico essa visão multidisciplinar em projetos que exijam tanto rigor técnico quanto criatividade.
                                     </p>
                                 </div>
                             </div>
                         </div>
 
-                        {/* Trajetória Acadêmica */}
+                        {/* Trajetória Acadêmica e Profissional */}
                         <div className="lg:col-span-5 p-8 rounded-2xl bg-white/5 border border-white/10 relative overflow-hidden group hover:border-primary/30 transition-colors">
                             <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                            <h3 className="text-xl font-bold text-white mb-6">Trajetória Acadêmica</h3>
+                            <h3 className="text-xl font-bold text-white mb-6">Trajetória</h3>
                             <ul className="space-y-6">
+                                <li className="flex gap-4 items-start">
+                                    <span className="w-3 h-3 mt-1.5 rounded-full bg-emerald-500 shrink-0 shadow-[0_0_10px_rgba(16,185,129,0.5)]"/>
+                                    <div>
+                                        <h4 className="font-bold text-white text-lg">Técnico de TI</h4>
+                                        <p className="text-sm text-gray-400">GVNDT • Atual</p>
+                                        <p className="text-xs text-gray-500 mt-1">Infraestrutura, Suporte e Soluções Tecnológicas</p>
+                                    </div>
+                                </li>
                                 <li className="flex gap-4 items-start">
                                     <span className="w-3 h-3 mt-1.5 rounded-full bg-primary shrink-0 shadow-[0_0_10px_var(--primary)]"/>
                                     <div>
