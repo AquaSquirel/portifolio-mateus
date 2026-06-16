@@ -13,8 +13,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio.mateuss.com.br"),
   title: "Mateus Sonnenberg | Engenharia & Desenvolvimento",
   description: "Portfólio de Mateus Sonnenberg: Do Elétron ao Bit. Desenvolvedor Full-Stack e Estudante de Engenharia de Computação.",
+  openGraph: {
+    title: "Mateus Sonnenberg | Engenharia & Desenvolvimento",
+    description: "Portfólio de Mateus Sonnenberg: Do Elétron ao Bit. Desenvolvedor Full-Stack e Estudante de Engenharia de Computação.",
+    url: "https://portfolio.mateuss.com.br",
+    siteName: "Mateus Sonnenberg Portfólio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Mateus Sonnenberg Portfólio Preview",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mateus Sonnenberg | Engenharia & Desenvolvimento",
+    description: "Portfólio de Mateus Sonnenberg: Do Elétron ao Bit. Desenvolvedor Full-Stack e Estudante de Engenharia de Computação.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
