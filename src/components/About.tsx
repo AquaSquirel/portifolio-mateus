@@ -37,7 +37,7 @@ export const About = () => {
                                         Com formação técnica em <strong>Eletroeletrônica</strong> e <strong>Desenvolvimento de Sistemas</strong>, aprendi a transitar entre o circuito físico e a lógica do código para resolver problemas reais de gestão e produtividade.
                                     </p>
                                     <p>
-                                        Atualmente atuando como <strong>Técnico de TI na GVNDT</strong> e cursando <strong>Engenharia de Computação</strong> na Facens, aplico essa visão multidisciplinar em projetos que exijam tanto rigor técnico quanto criatividade.
+                                        Atualmente atuando como <strong>Técnico de TI</strong> e cursando <strong>Engenharia de Computação</strong> na Facens, aplico essa visão multidisciplinar em projetos que exijam tanto rigor técnico quanto criatividade.
                                     </p>
                                 </div>
                             </div>

@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfolio.mateuss.com.br"),
   title: "Mateus Sonnenberg | Engenharia & Desenvolvimento",
-  description: "Portfólio de Mateus Sonnenberg: Técnico de TI na GVNDT e Estudante de Engenharia de Computação.",
+  description: "Portfólio de Mateus Sonnenberg",
   openGraph: {
     title: "Mateus Sonnenberg | Engenharia & Desenvolvimento",
-    description: "Portfólio de Mateus Sonnenberg: Técnico de TI na GVNDT e Estudante de Engenharia de Computação.",
+    description: "Portfólio de Mateus Sonnenberg",
     url: "https://portfolio.mateuss.com.br",
     siteName: "Mateus Sonnenberg Portfólio",
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mateus Sonnenberg | Engenharia & Desenvolvimento",
-    description: "Portfólio de Mateus Sonnenberg: Técnico de TI na GVNDT e Estudante de Engenharia de Computação.",
+    description: "Portfólio de Mateus Sonnenberg",
     images: ["/og-image.png"],
   },
   robots: {
