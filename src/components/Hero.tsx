@@ -25,7 +25,9 @@ export const Hero = () => {
                 <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-8 leading-relaxed">
                     Do <span className="text-secondary font-semibold">Elétron</span> ao <span className="text-primary font-semibold">Bit</span>.
                     <br />
-                    Desenvolvedor & Técnico de TI | Engenheiro de Computação em Formação.
+                    Desenvolvedor & Técnico de TI
+                    <br />
+                    Engenheiro de Computação em Formação.
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
